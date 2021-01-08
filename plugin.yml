@@ -1,0 +1,47 @@
+name: CABungee
+version: 1.0
+author: CyberAnimals Developer Team
+main: de.cyberanimals.bungee.cabungee
+
+commands:
+    ban:
+        description: Bannt einen Spieler
+        usage: </command> <Spieler> [Grund]
+    unban:
+        description: Entbannt einen Spieler
+        usage: </command> <Spieler>
+        aliases: [pardon]
+    isbanned:
+        description: Ban Info
+        usage: </command> <Spieler>
+        aliases: [baninfo,ban-info,banned,bancheck]
+    coins:
+        description: Zeigt wie viele Coins zu besitzt
+        usage: /<command>
+    msg:
+        description: Sendet eine Privatnachricht
+        usage: /<command> <Spieler> <Nachricht>
+    blockmsg:
+        description: Privatnachrichten blocken
+        usage: /<command>
+    broadcast:
+        description: Eine Rundnachricht an alle Server senden
+        usage: /<command> <Nachricht>
+    rfamsg:
+        description: Aktualisiert die Automessager Nachrichten
+        usage: /<command>
+    ac:
+        description: Administratorchat
+        usage: /<command> <Nachricht>
+    tc:
+        description: Teamchat
+        usage: /<command> <Nachricht>
+    kick:
+        description: Kickt Spieler
+        usage: /<command> <Spieler> [Grund]
+    ping:
+        description: Zeigt deinen Ping zu unseren Servern an
+        usage: /<command>
+    email:
+        description: Verknuepft deine MailAdresse mit unserem Server
+        usage: /<command> <EMailAdresse>
